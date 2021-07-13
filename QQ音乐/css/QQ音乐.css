@@ -1,0 +1,44 @@
+.first_background{
+    width: 1920px;
+    height: 320px;
+    background-image: url("images/0.jpg");
+}
+img{
+    height: 130px;
+}
+.six{
+    width: 1200px;
+    font-size: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.three{
+    width: 1200px;
+    /* background-color: salmon; */
+}
+.four{
+    font-family: '宋体';
+    font-size: 3em;
+    color: #333;
+    /* font-weight: 500; */
+    letter-spacing: 14px;
+    text-align: center;
+    }
+.five{
+    font-family: '宋体';
+    font-size: 1em;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.list li{
+    float: left;
+}
+.list img{
+    height: 130px;
+}

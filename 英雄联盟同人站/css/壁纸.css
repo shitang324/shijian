@@ -1,0 +1,234 @@
+body,ul,h2,h4,h3{
+    /* 消除无序列表默认边框布局 */
+    padding: 0px;
+    margin: 0px;
+}
+.first_background{
+    width: 1920px;
+    height: 620px;
+    background-image: url("../images/0.jpg");
+    /* 相对定位 */
+    position: relative;
+}
+.first_tuijian{
+    width: 1920px;
+    padding-bottom: 50px;
+    background-color: rgb(228, 228, 228);
+    overflow: hidden;
+}
+.second_bufeng{
+    width: 1920px;
+    overflow: hidden;
+    background-color: rgb(236, 235, 235);
+}
+.second_ziliao{
+    width: 945px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-right: 0px;
+    border-right: 2px ridge #999;
+    float: left;
+    overflow: hidden;
+}
+.third_xinwen{
+    height: 410px;
+    padding-top: 50px;
+    margin-left: 1000px;
+}
+.first_background .xialacaidan1{
+    width: 150px;
+}
+.first_background img{
+    /* 绝对定位 */
+    position: absolute;
+    top: 15px;
+    left: 10px;
+
+}
+.first_background .xiala{
+    width: 150px;
+    padding-left:  400px;
+    padding-top:  25px;
+}
+.first_background .xiala a{
+    font-family: '微软雅黑';
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.first_background .xialaliebiao{
+    display: none;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 400px;
+}
+.first_background .xialaliebiao ul{
+    list-style: none;
+}
+.xialaliebiao li{
+    margin-bottom: 10px;
+}
+.xialaliebiao a{
+    color: rgb(255, 255, 255);
+}
+.xialaliebiao a:hover{
+    color: rgb(252, 185, 2);
+}
+.second_tit h2,.third_tit h2{
+    font-family: '微软雅黑';
+    font-size: 2em;
+    color: #000;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 30px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+.third_tit h2{
+    margin-left: 20px;
+}
+.first_tit{
+    font-family: '微软雅黑';
+    font-size: 2em;
+    color: rgb(22, 21, 21);
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-align: center;
+    /* 行高 */
+    line-height: 30px;
+    padding-top: 44px;
+    margin-bottom: 34px;
+}
+.one_liebiao{
+    margin-left: 92px;
+    overflow: hidden;
+}
+.qianjin,.one_liebiao,.houtui{
+    float: left;
+}
+.houtui{
+    border-width: 40px;
+    border-style: inset;
+    margin-left: 77px;
+    margin-top: 45px;
+    border-color: transparent transparent transparent rgb(0, 0, 0);
+}
+.qianjin{
+    border-width: 40px;
+    border-style: inset;
+    padding-left: 5px;
+    margin-top: 45px;
+    border-color: transparent rgb(0, 0, 0) transparent transparent;
+}
+.one_liebiao li,.two_liebiao li{
+    /* 消除无序列表前默认的点 */
+    list-style: none;
+    /* 向左浮动 */
+    float: left;
+    margin-right: 15px;
+    /* 在li中给列表清除浮动 */
+    overflow: hidden;
+}
+.one_liebiao img{
+    width: 300px;
+    /* 为图片设置圆角 */
+    border-radius: 15px;
+    /* 消除图片隐藏边框 */
+    vertical-align: top;
+}
+.one_liebiao a,.two_xuanzelan a,.two_liebiao a,.three_liebiao a,.xialaliebiao a{
+    /* 消除下划线 ，text-decoration是属性规定添加到文本的修饰，例如加下划线，颜色由color属性设置*/
+    text-decoration: none;
+}
+.one_liebiao a:hover,.two_xuanzelan a:hover,.two_liebiao a:hover,.three_liebiao a:hover{
+    color: rgb(255, 0, 0);
+}
+.one_liebiao h4 a,.two_xuanzelan a,.two_liebiao a,.three_liebiao a{
+    color: #000;
+}
+.one_liebiao h4{
+    /* 文本对齐 */
+    text-align: center;
+    font-weight: normal;
+    /* 行高 */
+    line-height: 2;
+    margin-top: 6px;
+}
+.one_liebiao .nobianjian{
+    margin-right: 0px;
+}
+.two_xuanzelan{
+    padding-top: 15px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+.two_xuanzelan a{
+    margin-right: 40px;
+}
+.two_liebiao img{
+    height: 50px;
+    width: 50px;
+}
+.two_liebiao h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.two_liebiao p{
+    margin-bottom: 0px;
+    margin-top: 4px;
+    color: #999;
+    font-size: 5px;
+}
+.two_liebiao_tupian,.two_liebiao_mingzi,.second_tit,.two_xuanzelan{
+    float: left;
+    overflow: hidden;
+}
+.two_liebiao_mingzi{
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 77.5px;
+    height: 37px;
+}
+.two_liebiao_mingzi h5{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.two_liebiao li{
+    margin-right: 25px;
+    overflow: hidden;
+    /* margin-left: 2.5px; */
+}
+.two_liebiao .nomargin{
+    margin-right: 0px;
+}
+.three_liebiao ol{
+    margin-top: 50px;
+}
+.three_liebiao li{
+    line-height: 30px;
+    /* margin-top: 12px; */
+    margin-bottom: 12px;
+}
+.three_liebiao li a{
+    font-size: 20px;
+}
+.three_liebiao2{
+    margin-left: 40px;
+}
+.three_liebiao2 a{
+    display: inline-block;
+    height: 50px;
+    /* 设置对齐方式 */
+    vertical-align: top;
+    margin-top: 25px;
+    font-size: 14px;
+}
+/* 伪元素设置图标样式，暂未实现 */
+/* .three_liebiao2 a::before{
+    display: inline-block;
+    content: '\f1b0';
+    font-family: 'Font Awesome 5 Free';
+} */
