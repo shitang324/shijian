@@ -1,3 +1,4 @@
+/* 头部样式控制 */
 .body{
     margin: 0px;
 }
@@ -92,4 +93,23 @@
 }
 .xiangqing ul li a:hover{
     color: rgb(255, 187, 0);
+}
+/* 第二部分样式控制 */
+.second_bufen{
+    width: 100%;
+    background-color: azure;
+    height: 500px;
+}
+.second_bufen .lbt{
+    padding-left: 200px;
+    padding-top: 120px;
+    width: 500px;
+}
+.second_bufen .lbt a{
+    display: block;
+    text-decoration: none;
+    height: 281.25px;
+}
+.second_bufen .lbt img{
+    width: 500px;
 }
