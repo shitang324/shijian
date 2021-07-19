@@ -27,6 +27,8 @@ var jishu = (function chufa() {
     return function(){
         if(i==6){
             i = 0;
+            img1.src = tupian[i]
+            i += 1;
             return i;
         }else{
             img1.src = tupian[i]
@@ -35,7 +37,7 @@ var jishu = (function chufa() {
         }
     }
 })();
-setInterval(jishu, 1000);
+setInterval(jishu, 3000);
 // 单使用闭包做一个计数器
 /*var jishu = (function () {
     var i = 1;
